@@ -1,0 +1,31 @@
+Unlocking Loan Default Insights with Data Science & LightGBM
+🚀 Exploratory Data Analysis (EDA) & Feature Engineering for Loan Default Prediction 🔍
+Understanding loan default risk is crucial for financial decision-making, and data science provides powerful tools to uncover hidden patterns. I recently conducted an Exploratory Data Analysis (EDA) and Feature Engineering on a loan dataset, achieving an accuracy of 94.7% using LightGBM. Here are the key takeaways:
+You will find data used from Kaggle competition :{https://www.kaggle.com/competitions/playground-series-s4e10}
+🔹 Key Insights from EDA:
+📌 Loan Intent Trends: Education, medical, and venture loans are the most common, while home improvement loans are the least frequent.
+📌 Risky Loan Grades: Grades A & B dominate, but Grade D has the highest default rate.
+📌 Home Ownership & Borrowers: 51.6% rent, while 41.9% have a mortgage.
+📌 Age & Credit History: Ages range from 20 to 123 years (outliers detected). Credit histories span 2 to 30 years, with longer histories suggesting financial stability.
+📌 Loan Amounts & Employment Length: Loan amounts vary from $500 to $35,000. Employment length has extreme values (e.g., 123 years), highlighting potential data errors.
+📌 Income & Loan Status: Income strongly correlates with loan status. High-income borrowers default too, but age does not show a direct pattern.
+📌 Credit File Defaults: Borrowers with past defaults are more likely to default again.
+🔹 Data Cleaning & Preprocessing Steps:
+✅ Handled missing values in employment length & interest rates.
+✅ Removed duplicate records to ensure unbiased modeling.
+✅ Identified & treated outliers in income, age, and employment length.
+✅ Transformed skewed data for better model performance.
+✅ Scaled numerical features for consistent machine learning input.
+✅ Encoded categorical variables like loan intent, home ownership, and loan grade.
+🔹 Feature Engineering for Better Predictions:
+To enhance model performance, I engineered new features: 🔹 Income Percentile: Measures income standing relative to others.
+🔹 Income to Credit History Ratio: Evaluates financial stability.
+🔹 Estimated Annual Income: Adjusted for hypothetical growth.
+🔹 Median Income per Employment Group: Provides contextual insights.
+🔹 Employment Length Categories: Groups employment length intuitively.
+🔹 Model Performance with LightGBM:
+💡 LightGBM achieved an impressive 94.7% accuracy, demonstrating the power of careful data preprocessing and feature engineering. 🚀
+📊 Next Steps: Further optimization using hyperparameter tuning & interpretability techniques like SHAP.
+🔗 Let’s connect! If you’re interested in data science, fintech, or credit risk modelling, let’s discuss best practices and innovations! 👇
+
+#DataScience #MachineLearning #CreditRisk #EDA #FeatureEngineering #LightGBM #Fintech #AI #DataAnalytics #LoanApproval #LaonPredcition #CategoricalIncoding #OrdinalIncoding #Piplines
